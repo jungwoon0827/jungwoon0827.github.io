@@ -6,6 +6,7 @@
 	* {
 		padding: 0;
 		margin: 5px;
+		font-family: ONE Mobile POP;
 	}
 	li {
 		list-style-type: none;
@@ -18,7 +19,8 @@
 		height: 70px;
 		margin-top: 10px;
 		padding-top: 10px;
-		border: solid 0px #cccccc;
+		border: solid 5px #cccccc;
+		background-color: #A9A9A9;
 	}
 	nav li {
 		display: inline;
@@ -27,8 +29,10 @@
 	header {
 		width: 995px;
 		height: 110px;
-		margin-top: 10px;
-		border: solid 0px #cccccc;
+		margin-top: 0px;
+		border: solid 5px #cccccc;
+		background-color: #FFEBCD;
+		font-weight: bold;
 	}
 	#logo {
 		margin: 20px;
@@ -63,6 +67,7 @@
 	#address {
 		float: left;
 		margin: 30px 0 0 20px;
+		font-weight: bold;
 	}
 	#customer {
 		float: right;
@@ -72,6 +77,7 @@
 	#page {
 		width: 1020px;
 		margin: auto;
+		background-color: #FAF0E6;
 		border: solid 0px #cccccc;
 	}
 		      aside {
@@ -87,7 +93,7 @@
 <body id="page">
 <header>
 	<div id='logo'>
-		<a href="indexcat.html" target="bb">고양이에 대한 정보를 자세히 흝어보자</a>
+		<a href="indexcat.html" target="bb"><h3>고양이에 대한 정보가 이것저것 담긴 나만의 블로그!</h3></a>
 	</div>	
 </header>
 <div class='clear'></div> <!-- float 속성 해제 -->
@@ -101,22 +107,22 @@
 </ul>
 </nav>
 <div class='clear'></div> <!-- float 속성 해제-->
-<iframe src="indexcat.html" scrolling="no" name="bb" width="800" height="450" frameborder="0"></iframe>
+<iframe src="indexcat.html" scrolling="yes" name="bb" width="995" height="450" frameborder="0"></iframe>
 <!-- <section>
 	<img src='./img/index사진1.png' width="800">
 </section> -->
-<aside>
-	<ul>
-		<li><a href="gamecat.html" target="bb">고양이 사진1</a></li>
-		<li><a href="sadcat.html" target="bb">고양이 사진2</a></li>
-	</ul>
-</aside>
+
 <div class='clear'></div> <!-- float 속성 해제-->
 <footer>
 	<div id='address'>
-		만든 이 : 이정운 | 컴퓨터정보공학과
+		사이트 제작자 : 이정운 | 컴퓨터정보공학과
 	</div>
 	<div id='customer'>
-		학번 : 20210965 동양미래대학교
+		<a href="https://www.youtube.com/watch?v=Eue6mtEZy80">
+		<img src='./img/yt.png' width="50">고양이 밈</a>
+		<a href="https://github.com/jungwoon0827">
+		<img src='./img/github.png' width="50">깃허브</a>
 	</div>
 </footer>
+</body>
+</html>
